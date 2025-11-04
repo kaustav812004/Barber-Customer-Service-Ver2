@@ -40,31 +40,35 @@ Copy code
 ```bash
 git clone https://github.com/kaustav812004/Barber-Customer-Service-Ver2.git
 cd Barber-Customer-Service-Ver2
-2️⃣ Create a Virtual Environment
-bash
+```
+### 2️⃣ Create a Virtual Environment
+```bash
 Copy code
 python -m venv venv
 venv\Scripts\activate      # On Windows
 # or
 source venv/bin/activate   # On macOS/Linux
-3️⃣ Install Dependencies
-bash
+```
+### 3️⃣ Install Dependencies
+```bash
 Copy code
 pip install -r requirements.txt
-4️⃣ Environment Variables (optional for local)
+```
+### 4️⃣ Environment Variables (optional for local)
 Create a .env file in your root directory with the following:
 
-ini
+```bash
 Copy code
 CALCOM_API_KEY=your_calcom_api_key_here
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 💻 Running Locally (Console Mode)
 To run in console mode (no Twilio, direct terminal chat):
-
-bash
+```
+```bash
 Copy code
 python main.py
+```
 You’ll see:
 
 diff
